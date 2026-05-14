@@ -1,0 +1,62 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background:#d3d6c4;
+  min-height:100vh;
+  padding:40px;
+}
+
+.container{
+  max-width:1200px;
+  margin:auto;
+}
+
+.grid-layout{
+  display:grid;
+  grid-template-columns:repeat(12,1fr);
+  gap:20px;
+}
+
+.card{
+  background:#b91fa4;
+  border:1px solid rgba(255,255,255,0.08);
+  border-radius:24px;
+}
+
+/* GRID SIZES */
+
+.large{
+  grid-column:span 7;
+  height:250px;
+}
+
+.small{
+  grid-column:span 5;
+  height:250px;
+}
+
+.medium{
+  grid-column:span 4;
+  height:220px;
+}
+
+.wide{
+  grid-column:span 8;
+  height:220px;
+  background:#80cedd;
+}
+
+@media(max-width:900px){
+
+  .large,
+  .small,
+  .medium,
+  .wide{
+    grid-column:span 12;
+  }
+
+}
