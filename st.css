@@ -47,7 +47,7 @@ body{
 .wide{
   grid-column:span 8;
   height:220px;
-  background:#80cedd;
+  background:#2cb03b;
 }
 
 @media(max-width:900px){
