@@ -5,9 +5,23 @@
 
     <style>
         body{
-            background-color: lightyellow;
+            background: linear-gradient(to right, #fff8dc, #fff2cc);
             margin: 20px;
             padding: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1{
+            text-align: center;
+            letter-spacing: 2px;
+        }
+
+        h2{
+            margin-top: 25px;
+            color: #444;
+            border-bottom: 2px solid #ccc;
+            display: inline-block;
+            padding-bottom: 5px;
         }
 
         p{
@@ -22,13 +36,18 @@
         span{
             background-color: blueviolet;
             color: white;
-            padding: 10px;
+            padding: 10px 15px;
             margin: 5px;
+            border-radius: 20px;
+            display: inline-block;
         }
 
         div{
             margin-top: 10px;
             padding: 10px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
         }
 
         ul{
@@ -40,11 +59,28 @@
             background-color: lightgray;
             margin-top: 20px;
             padding: 10px;
+            border-radius: 8px;
         }
 
         img{
             margin-top: 15px;
             padding: 5px;
+            border-radius: 10px;
+        }
+
+        button{
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: blueviolet;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        button:hover{
+            background-color: rgb(84, 219, 149);
         }
     </style>
 </head>
@@ -68,27 +104,9 @@
         Am a computer engineering student.
     </div>
 
-    <h3>My hobbies</h3>
-
-    <ul>
-        <li>Reading</li>
-        <li>Writing</li>
-        <li>Crocheting</li>
-    </ul>
-
-    <img src="images.jpg" alt="My Image">
-
-    <table border="2">
-        <tr>
-            <th>Name</th>
-            <th>Age</th>
-        </tr>
-
-        <tr>
-            <td>Nejla</td>
-            <td>20</td>
-        </tr>
-    </table>
+    <a href="hobbies.html">
+        <button>HOBBIES</button>
+    </a>
 
 </body>
 </html>
